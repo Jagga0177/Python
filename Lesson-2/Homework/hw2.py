@@ -1,0 +1,28 @@
+Question 1:
+Username = input()
+Birth_year = int(input())
+
+from datetime import date
+current_year = date.today().year
+
+print("My name is", Username, "and I am", current_year - Birth_year, "years old")
+
+Question 2:
+txt = 'LMaasleitbtui'
+Car_Name = txt[8]+txt[6]+txt[4]+txt[0]+txt[2]
+print(Car_Name.capitalize())
+
+Question 3:
+txt = 'MsaatmiazD'
+Car_Name = txt[0]+txt[3:5]+txt[6]+txt[-2]
+print(Car_Name.capitalize())
+Car_Name_2 = txt[-1]+txt[2]+txt[0]+txt[-8]+txt[1]
+print(Car_Name_2.capitalize())
+
+Question 4:
+txt = "I'am John. I am from London"
+print(txt.split()[-1])
+
+Question 5:
+Word = input()
+print(Word[::-1])
